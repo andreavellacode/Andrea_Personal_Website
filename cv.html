@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <link rel="stylesheet" href="styles.css"/>
+        <link rel="stylesheet" href="cv.css"/>
+        <link rel="preload" href="pictures/texture.jpg" as="image">
+    </head>
+    <body>
+        <!-- Navigation Bar -->
+        <nav class="nav">
+            <div class="nav_menu">
+                <a href="/" class="icon">
+                    <img src="pictures/logo.png"  class="logo">
+                </a>
+                <div class="nav_sec" id="mobile-menu">
+                    <span class="bar"></span> 
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul class="nav_list"> 
+                    <li class="nav_item"> 
+                        <a href="/" class="nav_direct">Home</a>
+                    </li> 
+                    <li class="nav_item"> 
+                        <a href="/about.html" class="nav_direct">About Me</a>
+                    </li> 
+                    <li class="nav_item"> 
+                        <a href="/cv.html" class="nav_direct">CV</a>
+                    </li> 
+                    <li class="nav_item">  
+                        <a href="/contact.html" class="nav_direct">Contact</a>
+                    </li> 
+                </ul> 
+            </div>
+        </nav>
+
+        <main class="main_content">
+            <div class="preview_content">
+                <h1>Preview CV content &#40;or download cv below&#41;&#58;</h1>
+            </div>
+            <!-- Preview Section -->
+            <section class="cv_preview">
+                <div class="cv_section">
+                    <header class="section_title" onclick="toggle(this)">
+                        Profile <span class="arrow">&#x25BC;</span>
+                    </header>
+                    <div class="section_content">
+                        <p>Recently graduated student with good communication skills and efficient time management. Aiming to continue gaining work experience in an IT work environment, and developing my skills.</p>
+                    </div>
+                </div>
+    
+                <div class="cv_section">
+                    <header class="section_title" onclick="toggle(this)">
+                        Work Experience <span class="arrow">&#x25BC;</span>
+                    </header>
+                    <div class="section_content">
+                        <li>Junior Developer at Cleverbit Software &#40;July-September 2021, July-September 2022&#41;</li>
+                        <li>Electrician's Assistant &#40;September 2023 - May 2024&#41;</li>
+                    </div>
+                </div>
+    
+                <div class="cv_section">
+                    <header class="section_title" onclick="toggle(this)">
+                        Education <span class="arrow">&#x25BC;</span>
+                    </header>
+                    <div class="section_content">
+                        <li>University of Malta - Bachelor of Science in Information Tech &#40;Hons&#41;&#40;Software Development&#41;</li>
+                        <li>Saint Aloysius Sixth Form</li>
+                    </div>
+                </div>
+    
+                <div class="cv_section">
+                    <header class="section_title" onclick="toggle(this)">
+                        Skills <span class="arrow">&#x25BC;</span>
+                    </header>
+                    <div class="section_content">
+                        <li>Works well within a team</li>
+                        <li>Eager Learner</li>
+                        <li>Quick Learner</li>
+                        <li>C#</li>
+                        <li>ASP.NET MVC</li>
+                    </div>
+                </div>
+    
+                <div class="cv_section">
+                    <header class="section_title" onclick="toggle(this)">
+                        Languages <span class="arrow">&#x25BC;</span>
+                    </header>
+                    <div class="section_content">
+                        <li>English</li>
+                        <li>Maltese</li>
+                    </div>
+                </div>
+    
+                <div class="cv_section">
+                    <header class="section_title" onclick="toggle(this)">
+                        Hobbies <span class="arrow">&#x25BC;</span>
+                    </header>
+                    <div class="section_content">
+                        <p>Basketball</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Download Button -->
+            <h1>Download My CV</h1>
+            <a href="my_cv.pdf" download="Andrea_Vella_cv.pdf" class="download">Download CV</a>
+        </main>
+
+        <script src="app.js"></script>
+    </body>
+</html>

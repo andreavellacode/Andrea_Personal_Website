@@ -3,12 +3,11 @@
 
     <head>
         <link rel="stylesheet" href="styles.css"/>
-        <link rel="stylesheet" href="index.css"/>
+        <link rel="stylesheet" href="contact.css"/>
         <link rel="preload" href="pictures/texture.jpg" as="image">
     </head>
-
     <body>
-        <!-- Navigation Bar -->
+         <!-- Navigation Bar -->
         <nav class="nav">
             <div class="nav_menu">
                 <a href="/" class="icon">
@@ -26,37 +25,27 @@
                     <li class="nav_item"> 
                         <a href="/about.html" class="nav_direct">About Me</a>
                     </li> 
-                    <li class="nav_item"> 
+                    <li class="nav_item">
                         <a href="/cv.html" class="nav_direct">CV</a>
                     </li> 
-                    <li class="nav_item">
+                    <li class="nav_item"> 
                         <a href="/contact.html" class="nav_direct">Contact</a>
                     </li> 
                 </ul> 
             </div>
         </nav>
-        
-        <!-- Hero Section -->
-        <div class="hero">
-            <div class="hero_preview_box">
-                <button class="left arrow" onclick="prevPage()">&#9664;</button>
-                
-                <div class="pageDesc" id="pageDesc"></div>
-                
-                <button class="right arrow" onclick="nextPage()">&#9654;</button>
+
+        <!-- Contact Details -->
+        <div class="contact_box">
+            <div class="contact_detail">
+                <img src="pictures/phone_icon.png" class="contact_icon">
+                <a href="tel:+77495455" class="info">+365 7949 5455</a>
             </div>
-            <div class="hero_image_wrapper">
-                <img src="pictures/portrait.jpg" class="personal_image">
+            <div class="contact_detail">
+                <img src="pictures/email_icon.png" class="contact_icon">
+                <a href="mailto:andreavella913@gmail.com" class="info">andreavella913@gmail.com</a>
             </div>
         </div>
-        
-        <!-- Minor Intro -->
-        <div class="intro_box">
-            Recently graduated student with good communication skills and efficient time management. Eager to continue gaining work experience in an IT work environment, and developing my skills.
-        </div>
-
-        <div class="bottom_diag"></div>
-
 
         <script src="app.js"></script>
     </body>
