@@ -47,42 +47,37 @@ body {
     color: #f0f8ff;
     text-decoration: none;
     padding: 0 1rem;
-    height: 100%;
  }
 
  .nav_direct:hover {
-    color:#02474d;
+    color:#027297;
     transition: all 0.3 ease-in;
  }
 
 
 .bottom_diag {
-    position: absolute; 
     border-left: 50vw solid #008cba; 
-    border-top: 31vh solid transparent;
-    z-index: -1;
+    border-top: 31vh solid transparent; 
+    z-index: -1; 
 }
 
 .intro_box {
-    position: absolute;
-    bottom: 150px; 
+    position: absolute; 
+    bottom: 150px;
     right: 20px; 
     width: 1000px; 
-    height: 150px;
-    background-color: #81b1ce;
+    height: 150px; 
+    background-color: #81b1ce; 
     color: #f0f8ff;
-    padding: 20px; 
     border-radius: 10px; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    font-family: 'Arial', sans-serif; 
     line-height: 1.5; 
     font-size: 20px; 
     letter-spacing: 0.5px; 
-    z-index: 10; 
 }
 
  /* Hero Section */
@@ -96,11 +91,10 @@ body {
 
 .hero_image_wrapper {
     position: relative;
-    width: 900px; 
-    height: 500px;
+    width: 900px;
+    height: 500px; 
     background-color: #008cba; 
-    border-radius: 250px 0 0 250px;
-    overflow: hidden;
+    border-radius: 250px 0 0 250px; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
     top: 20%;
     left: 15%
@@ -110,34 +104,32 @@ body {
     position: absolute;
     top: 50%;
     left: 30px; 
-    width: 450px; 
-    height: 450px;
+    width: 450px;
+    height: 450px; 
     border-radius: 50%; 
     transform: translateY(-50%);
-    object-fit: cover;
+    object-fit: cover; 
 }
 
 /* Content Box */
 .hero_preview_box {
     display: flex;
-    align-items: left;
     background-color: #f9f9f9;
-    flex: column;
     align-items: center;
-    justify-content: center;
+    justify-content: center; 
     background-color: #81b1ce;
     background-size: 70% 70%;
     background-position: center; 
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; 
     padding: 20px;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 1000px; 
     height: 500px; 
-    max-width: 100%;
+    max-width: 100%;  
     position: relative;
-    left: 100px;
+    left: 100px; 
     margin-left: -20px; 
 }
 
@@ -147,7 +139,6 @@ body {
 }
 
 .pageDesc h2 {
-    font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 2rem;
     position: relative;
@@ -157,7 +148,6 @@ body {
 }
 
 .pageDesc p {
-    font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 1.2rem;
     position: relative;
@@ -166,7 +156,6 @@ body {
     line-height: 1.6;
     margin-bottom: 15px;
 }
-
 
 .hero_direct {
     display: inline-block;
@@ -178,8 +167,8 @@ body {
     bottom: 30px;
     border-radius: 5px;
     margin-top: 10px;
-    background: linear-gradient(to right, #008cba, #0056b3);
-    border: 1px solid #004a99;
+    background: linear-gradient(to right, #008cba, #027297);
+    border: 1px solid black;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
@@ -187,7 +176,6 @@ body {
     background: linear-gradient(to right, #0056b3, #003d7a);
 }
 
-/* Arrows */
 .arrow {
     background: none;
     border: none;
