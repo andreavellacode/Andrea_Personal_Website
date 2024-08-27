@@ -56,15 +56,16 @@ body {
 
 
 .bottom_diag {
-    border-left: 50vw solid #008cba; 
-    border-top: 31vh solid transparent; 
+    border-left: 32vw solid #008cba; 
+    border-top: 25.5vh solid transparent; 
+    margin-top: -10vh;
     z-index: -1; 
 }
 
 .intro_box {
-    position: absolute; 
-    bottom: 150px;
-    right: 20px; 
+    position: relative; 
+    bottom: -15px;
+    left:600px; 
     width: 1000px; 
     height: 150px; 
     background-color: #81b1ce; 
@@ -133,12 +134,12 @@ body {
     margin-left: -20px; 
 }
 
-.pageDesc {
+.pageDesc, .pageDescAlt {
     flex-grow: 1;
     text-align: center;
 }
 
-.pageDesc h2 {
+.pageDesc h2, .pageDescAlt h2 {
     font-weight: 700;
     font-size: 2rem;
     position: relative;
@@ -147,7 +148,7 @@ body {
     margin-bottom: 20px;
 }
 
-.pageDesc p {
+.pageDesc p, .pageDescAlt p {
     font-weight: 400;
     font-size: 1.2rem;
     position: relative;
@@ -186,4 +187,60 @@ body {
 
 .arrow:hover {
     color: #027297;
+}
+
+.hero_preview_box_alt{
+    display: none;
+}
+.hero_image_wrapper_alt{
+    display: none;
+}
+
+@media (max-width: 768px) {
+
+    .hero_preview_box {
+        display: none;
+    }
+
+    .hero_image_wrapper {
+        display: none;
+    }
+
+    .hero_preview_box_alt{
+        display: flex;
+        background-color: #81b1ce;
+        background-size: 70% 70%;
+        background-position: center; 
+        background-repeat: no-repeat; 
+        padding: 20px;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        width: 90%; /* Adjust width to fit within mobile viewport */
+        height: 400px;
+        max-width: 500px; /* Ensure it doesn’t exceed the maximum width */
+        margin: 0 auto; /* Center horizontally */
+        position: relative;
+        margin-bottom: 100px;
+        align-items: center;
+    }
+    
+    .personal_image {
+        width: 100%; /* Full width of the wrapper */
+        height: auto; /* Auto height to maintain aspect ratio */
+        border-radius: 0; /* Remove border-radius */
+    }
+
+    .intro_box {
+        width: 90%; /* Full width with padding */
+        max-width: 600px; /* Limit max width */
+        bottom: 20px; /* Distance from the bottom */
+        left: 50%; /* Center horizontally */
+        transform: translateX(-50%); /* Adjust horizontal centering */
+    }
+
+    .bottom_diag {
+        display: none; /* Hide on mobile */
+    }
+
 }

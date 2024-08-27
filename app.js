@@ -34,6 +34,17 @@ function showPreview() {
 
     const contentBoxElement = document.querySelector('.hero_preview_box');
     contentBoxElement.style.backgroundImage = previewContent[previewNum].backgroundImage;
+
+    const previewSectionAlt = document.getElementById('pageDescAlt');
+    previewSectionAlt.innerHTML = `
+        <h2>${previewContent[previewNum].title}</h2>
+        <p>${previewContent[previewNum].description}</p>
+        <a href="${previewContent[previewNum].link}" class="hero_direct">${previewContent[previewNum].button}</a>
+    `;
+
+
+    const contentBoxElementAlt = document.querySelector('.hero_preview_box_alt');
+    contentBoxElementAlt.style.backgroundImage = previewContent[previewNum].backgroundImage;
 }
 
 function prevPage() {
