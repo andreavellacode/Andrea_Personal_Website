@@ -196,7 +196,14 @@ body {
     display: none;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1600px) {
+    .intro_box {
+        left: 50%; 
+        transform: translateX(-50%);
+    }
+}
+
+@media (max-width: 1200px) {
 
     .hero_preview_box {
         display: none;
