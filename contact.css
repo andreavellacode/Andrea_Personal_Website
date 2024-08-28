@@ -36,3 +36,9 @@
 .info:hover {
     color: #81b1ce;
 }
+
+@media (max-width: 768px) {
+    .contact_box{
+        margin-bottom: 1000px;
+    }
+}
