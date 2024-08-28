@@ -250,5 +250,48 @@ body {
     .bottom_diag {
         display: none;
     }
-
+    .logo {
+        width: 150px; 
+        height: auto; 
+        display: block; 
+    }
+    
+    .nav{
+        background-color: #008cba;
+        height: 200px;
+        display: flex;
+        width: 100%;
+        position: sticky;
+        top: 0;
+        z-index: 999;
+        font-size: 1.3rem;
+     }
+    
+     .nav_menu{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        max-width: 1300px;
+        margin: 0 auto; 
+        padding: 0 20px; 
+     }
+    
+     .nav_list{
+        display: flex;
+        align-items: center;
+        list-style: none;
+     }
+    
+     .nav_direct{
+        color: #f0f8ff;
+        text-decoration: none;
+        padding: 0 1rem;
+     }
+    
+     .nav_direct:hover {
+        color:#027297;
+        transition: all 0.3 ease-in;
+     }
+    
 }
