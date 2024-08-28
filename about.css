@@ -95,6 +95,7 @@
 
     .about_image_alt{
         display: flex;
+        margin-bottom: 40px;
     }
 
     .about_section {
@@ -103,5 +104,6 @@
 
     .about_box_alt {
         display: flex;
+        margin-bottom: 20px;
     }
 }
